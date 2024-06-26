@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro e Inicio de Sesión</title><br>
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="form-container">
+            <img src="logo.jpg" alt="Facebook Logo" class="logo">
+            <form id="accountForm">
+                <h1 id="formTitle">Crear Cuenta</h1>
+                <input type="text" placeholder="Nombre" id="nameInput" required/>
+                <input type="email" placeholder="Correo Electrónico" id="emailInput" required/>
+                <input type="password" placeholder="Contraseña" id="passwordInput" required/>
+                <button onclick="window.location.href='inicio.html'">registrarse</button>
+                <p id="toggleMessage">¿Ya tienes una cuenta? <a href="#" id="toggleForm">Iniciar Sesión</a></p>
+            </form>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
